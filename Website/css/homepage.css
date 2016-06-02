@@ -1,0 +1,168 @@
+
+.center{
+  max-width: 960px;
+  margin: 30px auto;
+}
+.bg-grey{
+  background-color: #F5F5F5;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* Remove the navbar's default margin-bottom and rounded borders 
+-----------------------------------------------------------------*/ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.navbar-nav li a {
+  text-align: right;
+  font-size: 1em;
+  font-weight: 200;
+  color: #000;
+}
+.navbar-nav li a:hover{
+  text-decoration: none;
+  color: #F5F5F5;
+  background-color: #000; 
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    
+}
+.icon-bar{
+  background-color: #000;
+}
+.maxWidth{
+    max-width: 960px;
+}
+.notice{
+    position: fixed;
+    z-index: 100;
+}
+.navMargin{
+    margin: 0 50px;
+}
+.loginBtn, .loginBtn:focus, .loginBtn:active{
+    color: #fff;
+    margin: 5px;
+    background-color: #000;
+    border: 1px solid #000;
+    font-size: 1em;
+    font-weight: 200;
+    position:relative;
+    float: left;
+    display:block;
+    text-decoration: none;
+    padding:10px 15px;
+}
+.loginBtn:hover{
+    background-color: #505050;
+    color:#fff;
+    text-decoration: none;
+}
+.registerBtn, .registerBtn:focus, .registerBtn:active{
+    color: #000;
+    margin: 5px;
+    background-color: #fff;
+    font-size: 1em;
+    font-weight: 200;
+    border: 1px solid #000;
+    position:relative;
+    float: left;
+    display:block;
+    text-decoration: none;
+    padding:10px 15px;
+}
+.registerBtn:hover{
+    background-color: #505050;
+    color:#fff;
+    text-decoration: none;
+}
+.logo{
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+.user{
+  font-size: 1em;
+}
+.navForm{
+    z-index: 2000;
+}
+#userText{
+    z-index: 500;
+    top: 0;
+    position: fixed;
+    color: red;
+    font-size: 1.2em;
+    font-weight: 300;
+    right: 239px;
+}
+ #close
+ {
+    z-index: 500;
+    top: 0;
+    position: fixed;
+    color: #000;
+    right: 200px;
+}
+.marginbottom{
+  margin-bottom: 5px;
+}
+.picCover{
+  height: 250px;
+  margin: auto;
+  object-fit:cover;
+}
+.h3{
+  font-size: 2em;
+  font-weight: 200;
+}
+.btn-danger{
+  background-color: #C59F9D;
+  border-color: #C19290;
+}
+.btn-info{
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+  margin: auto;
+}
+/****about*****/
+.aboutBanner{
+  margin: 0 auto;
+}
+.aboutText{
+  margin: 10px auto;
+  max-width: 900px;
+}
+h4{
+  font-weight: bold;
+}
+/***range code***/
+.normalText{
+  font-weight: bold;
+}
+.barText{
+  margin: 0 10px;
+  color: #ccc;
+}
+.statement{
+  max-width: 300px;
+  margin: auto;
+}
+.barSlider{
+  background-color: #000;
+}
+.roundBtn{
+  width: 110px;
+  height: 110px;
+  padding: 2px;
+  border: 2px solid #ccc;
+  border-radius: 20%;
+  margin: 40px auto;
+}
